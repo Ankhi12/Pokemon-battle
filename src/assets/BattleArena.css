@@ -1,0 +1,56 @@
+
+html, body{
+    background-color: black;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+}
+
+h1, h2, h3, p, label{
+    color: white;
+    font-family: "Orbitron", sans-serif;
+}
+
+
+@keyframes walk {
+  0% {
+    transform: translateX(250px);
+  }
+
+  
+  100% {
+    transform: translateX(0); 
+  }
+}
+
+
+.walking-element {
+  display: inline-block;
+  font-size: 50px; 
+  animation: 
+  walk 10s linear forwards;
+}
+
+
+@keyframes walkr {
+  0% {
+    transform: translateX(0);
+  }
+
+  
+  100% {
+    transform: translateX(250px);
+  }
+}
+
+.walking{
+  display: inline-block;
+  font-size: 50px; 
+  animation: 
+  walkr 10s linear forwards;
+   
+}
+
+.full-height{
+    min-height: 100vh;
+    
+}
